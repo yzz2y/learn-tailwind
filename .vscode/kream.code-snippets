@@ -1148,4 +1148,10 @@
     ],
     "description": "Kream Footer",
   },
+
+  "Component Container": {
+    "prefix": "component-container",
+    "body": ["<b class=\"block\">$1</b>", "<div class=\"kream--components\">", "  $2", "</div>", "<hr class=\"my-5\">"],
+    "description": "Component Container",
+  },
 }
