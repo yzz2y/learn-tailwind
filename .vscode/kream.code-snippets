@@ -24,16 +24,12 @@
   },
   "Kream 텍스트 버튼(Green)": {
     "prefix": "kream-button-text-green",
-    "body": [
-      "<button type=\"button\" class=\"text-kream-green text-p-sm inline-flex items-center justify-center gap-1 rounded-sm border border-current p-1 align-middle\">$1</button>",
-    ],
+    "body": ["<button type=\"button\" class=\"text-kream-green text-p-sm inline-flex items-center justify-center gap-1 rounded-sm border border-current p-1 align-middle\">$1</button>"],
     "description": "Kream 텍스트 버튼(Green)",
   },
   "Kream 텍스트 버튼(Red)": {
     "prefix": "kream-button-text-red",
-    "body": [
-      "<button type=\"button\" class=\"text-kream-red text-p-sm inline-flex items-center justify-center gap-1 rounded-sm border border-current p-1 align-middle\">$1</button>",
-    ],
+    "body": ["<button type=\"button\" class=\"text-kream-red text-p-sm inline-flex items-center justify-center gap-1 rounded-sm border border-current p-1 align-middle\">$1</button>"],
     "description": "Kream 텍스트 버튼(Red)",
   },
   "Kream 아이콘 버튼(Notification)": {
@@ -165,63 +161,42 @@
   },
   "Kream 강조, 제목 텍스트(text-h-md)": {
     "prefix": "kream-heading-md",
-    "body": [
-      "<span$2 class=\"text-h-md font-bold\">제목 텍스트$1</span>",
-      "            ",
-    ],
+    "body": ["<span$2 class=\"text-h-md font-bold\">제목 텍스트$1</span>", "            "],
     "description": "Kream 제목 텍스트(Heading MD)",
   },
   "Kream 기본 텍스트(text-p-md)": {
     "prefix": "kream-paragraph-md",
-    "body": [
-      "<span$2 class=\"text-p-md\">단락 텍스트$1</span>",
-      "            ",
-    ],
+    "body": ["<span$2 class=\"text-p-md\">단락 텍스트$1</span>", "            "],
     "description": "Kream 단락 텍스트(Paragraph MD)",
   },
   "Kream 기본 텍스트(text-p-sm)": {
     "prefix": "kream-paragraph-sm",
-    "body": [
-      "<span$2 class=\"text-p-sm\">단락 텍스트$1</span>",
-      "            ",
-    ],
+    "body": ["<span$2 class=\"text-p-sm\">단락 텍스트$1</span>", "            "],
     "description": "Kream 단락 텍스트(Paragraph SM)",
   },
   "Kream 할인율(Discount)": {
     "prefix": "kream-text-discount",
-    "body": [
-      "<span class=\"text-kream-red text-h-md font-bold not-italic\">10%<span class=\"sr-only\">할인율</span></span>",
-      "            ",
-    ],
+    "body": ["<span class=\"text-kream-red text-h-md font-bold not-italic\">10%<span class=\"sr-only\">할인율</span></span>", "            "],
     "description": "Kream 할인율(Discount)",
   },
   "Kream 구매가(Price)": {
     "prefix": "kream-text-price",
-    "body": [
-      "<span class=\"text-h-md font-bold\">76,500원</span>",
-      "            ",
-    ],
+    "body": ["<span class=\"text-h-md font-bold\">76,500원</span>", "            "],
     "description": "Kream 구매가(Price)",
   },
   "Kream Badge Text": {
     "prefix": "kream-badge-text",
-    "body": [
-      "<span class=\"text-p-sm inline-flex items-center justify-center gap-1 rounded-sm border border-current p-1 align-middle\">배지 텍스트$1</span>            ",
-    ],
+    "body": ["<span class=\"text-p-sm inline-flex items-center justify-center gap-1 rounded-sm border border-current p-1 align-middle\">배지 텍스트$1</span>            "],
     "description": "Kream-badge-text ",
   },
   "Kream Badge Text(Green) ": {
     "prefix": "kream-badge-text-green",
-    "body": [
-      "<span class=\"text-kream-green text-p-sm inline-flex items-center justify-center gap-1 rounded-sm border border-current p-1 align-middle\">배지 텍스트$1</span>            ",
-    ],
+    "body": ["<span class=\"text-kream-green text-p-sm inline-flex items-center justify-center gap-1 rounded-sm border border-current p-1 align-middle\">배지 텍스트$1</span>            "],
     "description": "Kream-badge-text(Green) ",
   },
   "Kream Badge Text(Red) ": {
     "prefix": "kream-badge-text-red",
-    "body": [
-      "<span class=\"text-kream-red text-p-sm inline-flex items-center justify-center gap-1 rounded-sm border border-current p-1 align-middle\">배지 텍스트$1</span>            ",
-    ],
+    "body": ["<span class=\"text-kream-red text-p-sm inline-flex items-center justify-center gap-1 rounded-sm border border-current p-1 align-middle\">배지 텍스트$1</span>            "],
     "description": "Kream-badge-text(Red) ",
   },
   "Kream Badge (Delivery) ": {
@@ -238,12 +213,7 @@
   },
   "Kream Section Heading": {
     "prefix": "kream-section-heading",
-    "body": [
-      "<h2 class=\"flex flex-col\">",
-      "  <span class=\"text-h-md font-bold\">Top Brand</span>",
-      "  <span class=\"text-p-md\">인기 탑 브랜드</span>",
-      "</h2>",
-    ],
+    "body": ["<h2 class=\"flex flex-col\">", "  <span class=\"text-h-md font-bold\">Top Brand</span>", "  <span class=\"text-p-md\">인기 탑 브랜드</span>", "</h2>"],
     "description": "Kream Section Heading",
   },
   "Kream Product Card": {
@@ -294,7 +264,7 @@
   "Kream Tab": {
     "prefix": "kream-tab",
     "body": [
-      "<button tabindex=\"-1\" role=\"tab\" id=\"tab-1\" aria-controls=\"tab-panel-1\" aria-selected=\"false\" type=\"button\" class=\"h-9.5 border-b-4 border-current text-p-sm sm:text-p-lg font-bold\">탭 텍스트$1</button>",
+      "<button tabindex=\"-1\" role=\"tab\" id=\"tab-1\" aria-controls=\"tabpanel-1\" aria-selected=\"false\" type=\"button\" class=\"h-9.5 border-b-4 border-current text-p-sm sm:text-p-lg font-bold\">탭 텍스트$1</button>",
     ],
     "description": "Kream Tab",
   },
@@ -302,17 +272,15 @@
     "prefix": "kream-tablist",
     "body": [
       "<div class=\"tablist\">",
-      "  <button tabindex=\"-1\" role=\"tab\" id=\"tab-1\" aria-controls=\"tab-panel-1\" aria-selected=\"true\" type=\"button\" class=\"h-9.5 border-b-4 border-current text-p-sm sm:text-p-lg font-bold\">추천</button>",
-      "  <button tabindex=\"-1\" role=\"tab\" id=\"tab-2\" aria-controls=\"tab-panel-2\" aria-selected=\"false\" type=\"button\" class=\"h-9.5 border-b-4 border-transparent text-p-sm sm:text-p-lg\">발견</button>",
+      "  <button tabindex=\"-1\" role=\"tab\" id=\"tab-1\" aria-controls=\"tabpanel-1\" aria-selected=\"true\" type=\"button\" class=\"h-9.5 border-b-4 border-current text-p-sm sm:text-p-lg font-bold\">추천</button>",
+      "  <button tabindex=\"-1\" role=\"tab\" id=\"tab-2\" aria-controls=\"tabpanel-2\" aria-selected=\"false\" type=\"button\" class=\"h-9.5 border-b-4 border-transparent text-p-sm sm:text-p-lg\">발견</button>",
       "</div>",
     ],
     "description": "Kream Tab List",
   },
   "Kream Tab Panel": {
     "prefix": "kream-tabpanel",
-    "body": [
-      "<div role=\"tabpanel\" id=\"tabpanel-1\" aria-labelledby=\"tab-1\" class=\"tabpanel\"></div>",
-    ],
+    "body": ["<div role=\"tabpanel\" id=\"tabpanel-1\" aria-labelledby=\"tab-1\" class=\"tabpanel\"></div>"],
     "description": "Kream Tab Panel",
   },
   "Kream Tabs": {
@@ -320,8 +288,8 @@
     "body": [
       "<div class=\"tabs\">",
       "  <div class=\"tablist manual\" >",
-      "    <button tabindex=\"-1\" role=\"tab\" id=\"tab-1\" aria-controls=\"tab-panel-1\" aria-selected=\"true\" type=\"button\" class=\"h-9.5 border-b-4 border-current text-p-sm sm:text-p-lg font-bold\">추천</button>",
-      "    <button tabindex=\"-1\" role=\"tab\" id=\"tab-2\" aria-controls=\"tab-panel-2\" aria-selected=\"false\" type=\"button\" class=\"h-9.5 border-b-4 border-transparent text-p-sm sm:text-p-lg\">랭킹</button>",
+      "    <button tabindex=\"-1\" role=\"tab\" id=\"tab-1\" aria-controls=\"tabpanel-1\" aria-selected=\"true\" type=\"button\" class=\"h-9.5 border-b-4 border-current text-p-sm sm:text-p-lg font-bold\">추천</button>",
+      "    <button tabindex=\"-1\" role=\"tab\" id=\"tab-2\" aria-controls=\"tabpanel-2\" aria-selected=\"false\" type=\"button\" class=\"h-9.5 border-b-4 border-transparent text-p-sm sm:text-p-lg\">랭킹</button>",
       "  </div>",
       "  <div role=\"tabpanel\" id=\"tabpanel-1\" aria-labelledby=\"tab-1\" class=\"tabpanel\">",
       "    콘텐츠 tab-1",
@@ -1064,11 +1032,7 @@
   },
   "Kream Divider": {
     "prefix": "kream-divider",
-    "body": [
-      "<div class=\"px-5 w-full max-container mx-auto\">",
-      "  <div class=\"border-t border-lightgray\"></div>",
-      "</div>",
-    ],
+    "body": ["<div class=\"px-5 w-full max-container mx-auto\">", "  <div class=\"border-t border-lightgray\"></div>", "</div>"],
     "description": "Kream Divider",
   },
   "Kream Customer Service": {
