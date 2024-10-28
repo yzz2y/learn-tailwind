@@ -1,13 +1,15 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import './fonts.css';
+@import './syntax.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .state-button {
-  @apply relative size-12 rounded-full bg-[url('/src/assets/face/face3.jpg')] bg-cover bg-center bg-no-repeat;
-}
+  @apply relative size-12 rounded-full bg-[url(/src/assets/face/face3.jpg)] bg-cover bg-center bg-no-repeat;
 
-.state-text {
-  @apply absolute bottom-0 right-0 size-4 rounded-full border-2 border-white;
+  .state-text {
+    @apply absolute bottom-0 right-0 size-4 rounded-full border-2 border-white;
+  }
 }
 
 .state-online {
@@ -15,7 +17,6 @@
     @apply bg-Green-600;
   }
 }
-
 .state-offline {
   .state-text {
     @apply bg-Gray-600;
