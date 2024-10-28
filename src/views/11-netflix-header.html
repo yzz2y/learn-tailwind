@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko-KR">
   <head>
     <meta charset="UTF-8" />
@@ -9,13 +9,16 @@
   </head>
   <body class="bg-slate-300 font-suit">
     <header
-      class="bg-Black py-5 px-6 lg:py-10 lg:px-8 grid grid-cols-[1fr_auto_auto] gap-2 lg:gap-3"
+      class="grid grid-cols-[1fr_auto_auto] gap-2 bg-Black px-6 py-5 lg:gap-3 lg:px-8 lg:py-10"
     >
       <h1 class="self-center">
         <a href="/" class="block w-20 lg:w-36">
           <picture>
             <source
-              srcset="/src/assets/logo/netflix@1x.png 1x, /src/assets/logo/netflix@2x.png 2x"
+              srcset="
+                /src/assets/logo/netflix@1x.png 1x,
+                /src/assets/logo/netflix@2x.png 2x
+              "
               type="image/webp"
             />
             <img
@@ -27,8 +30,12 @@
         </a>
       </h1>
 
-      <div class="self-center inline-flex border relative border-1 text-Gray-300 rounded-default">
-        <svg class="left-2 lg:left-3 absolute size-3 lg:size-4 top-1/2 translate -translate-y-1/2">
+      <div
+        class="border-1 relative inline-flex self-center rounded-default border text-Gray-300"
+      >
+        <svg
+          class="translate absolute left-2 top-1/2 size-3 -translate-y-1/2 lg:left-3 lg:size-4"
+        >
           <use class="" href="/src/assets/sprite/icons.svg#global" />
         </svg>
 
@@ -43,7 +50,7 @@
         </select>
 
         <svg
-          class="right-2 lg:right-3 absolute size-3 lg:size-4 top-1/2 translate -translate-y-1/2"
+          class="translate absolute right-2 top-1/2 size-3 -translate-y-1/2 lg:right-3 lg:size-4"
         >
           <use href="/src/assets/sprite/icons.svg#triangle" />
         </svg>
@@ -51,7 +58,7 @@
 
       <a
         href="/"
-        class="self-center inline-flex rounded-default text-xs lg:text-base bg-Red-500 text-white px-5 py-1.5 font-bold"
+        class="inline-flex self-center rounded-default bg-Red-500 px-5 py-1.5 text-xs font-bold text-white lg:text-base"
         >로그인</a
       >
     </header>
